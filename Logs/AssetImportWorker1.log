@@ -1,0 +1,217 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.25f1 (68ef2c4f8861) revision 6876972'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'zh' Physical Memory: 16241 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Develop Program Files\Unity\Hub\Editor\2021.3.25f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+D:/Develop Program Files/Unity/Project/Unity Lab 1
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+12260
+Successfully changed project path to: D:/Develop Program Files/Unity/Project/Unity Lab 1
+D:/Develop Program Files/Unity/Project/Unity Lab 1
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [19376] Host "[IP] 192.168.3.11 [Port] 0 [Flags] 2 [Guid] 2009138425 [EditorId] 2009138425 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-RE8PDEF) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [19376] Host "[IP] 192.168.3.11 [Port] 0 [Flags] 2 [Guid] 2009138425 [EditorId] 2009138425 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-RE8PDEF) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 75.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.25f1 (68ef2c4f8861)
+[Subsystems] Discovering subsystems at path D:/Develop Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Develop Program Files/Unity/Project/Unity Lab 1/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f91)
+    Vendor:   NVIDIA
+    VRAM:     3962 MB
+    Driver:   31.0.15.1700
+Initialize mono
+Mono path[0] = 'D:/Develop Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Develop Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Develop Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56224
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Develop Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004319 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 73.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.604 seconds
+Domain Reload Profiling:
+	ReloadAssembly (604ms)
+		BeginReloadAssembly (75ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (441ms)
+			LoadAssemblies (74ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (105ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (255ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (73ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (124ms)
+				ProcessInitializeOnLoadMethodAttributes (49ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003087 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Develop Program Files\Unity\Project\Unity Lab 1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Develop Program Files\Unity\Project\Unity Lab 1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.939 seconds
+Domain Reload Profiling:
+	ReloadAssembly (940ms)
+		BeginReloadAssembly (110ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (732ms)
+			LoadAssemblies (80ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (262ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (311ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (74ms)
+				ProcessInitializeOnLoadAttributes (204ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3049 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (113.3 KB). Loaded Objects now: 3510.
+Memory consumption went from 111.8 MB to 111.7 MB.
+Total: 3.126900 ms (FindLiveObjects: 0.247800 ms CreateObjectMapping: 0.172600 ms MarkObjects: 2.562400 ms  DeleteObjects: 0.143400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 300782.966578 seconds.
+  path: Assets/Billiard_Balls/2 Ball Texture.png
+  artifactKey: Guid(ef263f63f17443a4f98b6c79011a2b20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Billiard_Balls/2 Ball Texture.png using Guid(ef263f63f17443a4f98b6c79011a2b20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b1c79288cdd9481fcddcdb2816866ac') in 0.090806 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Billiard_Balls/7 Ball Texture.png
+  artifactKey: Guid(1e2db08cf4000ec4b9d08613a5549661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Billiard_Balls/7 Ball Texture.png using Guid(1e2db08cf4000ec4b9d08613a5549661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '542de3762a54d9158e0f72c636590652') in 0.009598 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Billiard_Balls/4 Ball Texture.png
+  artifactKey: Guid(1927337389b000d4bbe5dde37cc15b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Billiard_Balls/4 Ball Texture.png using Guid(1927337389b000d4bbe5dde37cc15b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5054b90c46ac38a45f9d1e6297d26de') in 0.011097 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Billiard_Balls/13 Ball Texture.png
+  artifactKey: Guid(bee089619b8fb0444a84564f40a058c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Billiard_Balls/13 Ball Texture.png using Guid(bee089619b8fb0444a84564f40a058c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaec6f07afa03d8de02efbc17e24ddf8') in 0.012191 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Billiard_Balls/8 Ball Texture.png
+  artifactKey: Guid(c6306b827a97c0240b5af0fee41c9ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Billiard_Balls/8 Ball Texture.png using Guid(c6306b827a97c0240b5af0fee41c9ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ede0b9479317691b5ab0e689f4dbba17') in 0.010384 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Billiard_Balls/12 Ball Texture.png
+  artifactKey: Guid(5b556e9a7416f084f9b863f8864e8017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Billiard_Balls/12 Ball Texture.png using Guid(5b556e9a7416f084f9b863f8864e8017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6e9ad577a38a8f6e123339cc8f81f67') in 0.008286 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Billiard_Balls/9 Ball Texture.png
+  artifactKey: Guid(63f4ce870b1cccf47a609d40b36677aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Billiard_Balls/9 Ball Texture.png using Guid(63f4ce870b1cccf47a609d40b36677aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f759bf11eb6da8ee8517d13fb942d82e') in 0.010726 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Billiard_Balls/10 Ball Texture.png
+  artifactKey: Guid(174c716bfb2de714eb4aafd2cda56959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Billiard_Balls/10 Ball Texture.png using Guid(174c716bfb2de714eb4aafd2cda56959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '806e286ce5216fd89a694bbb44cf6f1c') in 0.011111 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 123.400398 seconds.
+  path: Assets/Scenes/pexels-quang-nguyen-vinh-2174974.jpg
+  artifactKey: Guid(2e59e55208237524fb1f58185ce08b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/pexels-quang-nguyen-vinh-2174974.jpg using Guid(2e59e55208237524fb1f58185ce08b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26c4a06f87cf7d7acf1364c32a762b62') in 0.014636 seconds 
